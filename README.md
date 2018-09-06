@@ -21,14 +21,14 @@ Spring Boot点餐系统
 
 #### 项目详情
 ##### 技术支持
-* 日志：logback  
+* 日志框架：SLF4j+logback  
 * 持久层：JPA 
 * 后端模板：freemarker
 * 消息推送：WebSocket 
 ##### 买家端
-* 开发顺序dao->service->api 分别进行单元测试
+* 开发顺序dao->service->api，并分别进行单元测试
 ##### 卖家端
-* 登录/登出操作，使用redis和cookie存储用户信息
+* 登录/登出操作，token认证，使用redis和cookie存储用户信息
 * 用户访问商品列表等时需要校验，使用AOP
 ##### 压测
 * 使用简易工具Apache ab
