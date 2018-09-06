@@ -35,6 +35,6 @@ Spring Boot点餐系统
 ##### 秒杀
 * Reids实现分布式锁
 ##### Redis缓存
-* 命中@Cacheable
-* 失效@CacheEvict
-* 更新@CachePut
+* 命中：@Cacheable
+* 失效：@CacheEvict
+* 更新：@CachePut
